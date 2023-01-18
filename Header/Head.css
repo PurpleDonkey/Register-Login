@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: url(../Images/bg.jfif);
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background:linear-gradient(120deg,#2c1414,#6e4b28) ;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    opacity: 90%;
+}
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    height: 75px;
+    width: 75px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+nav{
+    float: left;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #7c381d;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 20px;
+    position: absolute;
+    right: 100px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #804026;
+    color: rgb(238, 206, 63);
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+#Home .Pfp{
+    width: 300px;
+    border-radius: 50%;
+}

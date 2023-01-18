@@ -14,16 +14,11 @@
     <header>
       <div class="header">
         <a href="#Home">
-          <img src="logo.png" class="logo" />
+          <img src="../Images/logo.png" class="logo" />
         </a>
       </div>
       <nav>
-        <ul class="nlinks">
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#AboutMe">About Us</a></li>
-          <li><a href="#Interests">Sign in</a></li>
-          <li><a href="#Education">Sign up</a></li>
-        </ul>
+      <input type="submit" value="Login">
       </nav>
     </header>
     </body>

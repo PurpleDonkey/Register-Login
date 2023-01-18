@@ -1,21 +1,14 @@
-<?php 
-    include_once 'includes/db.inc.php';
-?>
 <!DOCTYPE html>
 <html>
 <head>
   <title>Registration Form</title>
-  <link rel="stylesheet" type="text/css" href="Login.css">
+  <link rel="stylesheet" type="text/css" href="../Css/Login.css">
 </head>
 <body>
   <div class="lBox">
-        <img src="Images/logo.png" class="Pfp">
+        <img src="../Images/logo.png" class="Pfp">
   <div id="container">
-    <?php
-    print_r($_POST)
-    ?>
-    
-    <h1>Login</h1>
+
         <form id="login-form" method="post">
             <div class="txt">
                 <input type="text" required>

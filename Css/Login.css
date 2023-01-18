@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(Images/bg.jfif);
+  background: url(../Images/bg.jfif);
   background-size: cover;
   background-position: relative;
   font-family: sans-serif;
