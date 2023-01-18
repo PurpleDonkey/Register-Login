@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Work+Sans:400"
     />
-    <link rel="stylesheet" type="text/css" href="Head.css" />
+    <link rel="stylesheet" type="text/css" href=".../Css/index.css" />
   </head>
   <body>
     <header>
@@ -18,7 +18,9 @@
         </a>
       </div>
       <nav>
+      <a href="Login.php">
       <input type="submit" value="Logout">
+      </a>
       </nav>
     </header>
     <h1>WELCOME TO THE WEBSITE</h1>
