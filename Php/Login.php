@@ -1,3 +1,6 @@
+<?php 
+    include_once 'includes/db.inc.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,12 +11,14 @@
   <div class="lBox">
         <img src="Images/logo.png" class="Pfp">
   <div id="container">
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+    <?php
+    print_r($_POST)
+    ?>
     
     <h1>Login</h1>
-        <form method="post">
+        <form id="login-form" method="post">
             <div class="txt">
-                <input type="email" required>
+                <input type="text" required>
                 <span></span>
                 <label for="email">Email ID</label>
             </div>
@@ -27,7 +32,7 @@
                 <span></span>
                 <label for="password">Password</label>
             </div>
-            <input type="submit" value="Login">
+            <input id="login-button" type="submit" value="Login">
             <div class="links">
                 <a href="#">Forgot Password?</a>
                 <a href="Register.php">Create an account.</a>
