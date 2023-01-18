@@ -3,16 +3,12 @@
 <head>
     <meta charset="utf-8">
     <title>Log-in Page</title>
-    <link rel="stylesheet" type="text/css" href="Register.css">
+    <link rel="stylesheet" type="text/css" href="../Css/Register.css">
 <body>
     
     <div class="lBox">
-        <img src="Images/logo.png" class="Pfp">
+        <img src="../Images/logo.png" class="Pfp">
     <div id="container">
-        <?php
-        print_r($_POST)
-        ?>
-        <h1>Sign up</h1>
         <form action="Register.php" method="post">
             <div class="txt">
                 <input type="email" required>

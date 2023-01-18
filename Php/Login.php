@@ -27,7 +27,6 @@
             </div>
             <input id="login-button" type="submit" value="Login">
             <div class="links">
-                <a href="#">Forgot Password?</a>
                 <a href="Register.php">Create an account.</a>
             </div>
         </form>

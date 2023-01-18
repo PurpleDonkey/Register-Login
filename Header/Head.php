@@ -18,9 +18,10 @@
         </a>
       </div>
       <nav>
-      <input type="submit" value="Login">
+      <input type="submit" value="Logout">
       </nav>
     </header>
+    <h1>WELCOME TO THE WEBSITE</h1>
     </body>
 </html>
 

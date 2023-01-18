@@ -98,3 +98,11 @@ nav a:hover::before{
     width: 300px;
     border-radius: 50%;
 }
+
+h1 {
+    text-align: center;
+    position: center;
+    padding-top: 500px;
+    color: #fff;
+    font-size: 52px;
+}
